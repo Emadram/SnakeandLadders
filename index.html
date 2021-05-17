@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SnakeandLadders</title>
+  </head>
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <body>
+    <!-- player holder -->
+    <aside id="pawnpoint">
+      <span id="spanstart"></span>
+    </aside>
+    <!-- div -->
+    <div id="divc">
+      <div id="snakeladder">
+        <!-- ladders -->
+        <img
+          id="ladder1"
+          src="image/snakeandladder/l.png"
+          width="128px"
+          height="120px"
+        />
+        <!-- 15/35 -->
+        <img
+          id="ladder2"
+          src="image/snakeandladder/l.png"
+          width="128px"
+          height="192px"
+        /><!-- 57/87 -->
+        <img
+          id="ladder3"
+          src="image/snakeandladder/l.png"
+          width="128px"
+          height="120px"
+        /><!-- 64/84 -->
+        <img
+          id="ladder4"
+          src="image/snakeandladder/l.png"
+          width="128px"
+          height="64px"
+        /><!-- 88/98 -->
+        <img
+          id="ladder5"
+          src="image/snakeandladder/l.png"
+          width="128px"
+          height="64px"
+        /><!-- 8/18 -->
+        <!-- snakes -->
+        <img
+          id="snake1"
+          src="image/snakeandladder/sb.png"
+          width="128px"
+          height="128px"
+        /><!-- 39/19 -->
+        <img
+          id="snake2"
+          src="image/snakeandladder/sr.png"
+          width="128px"
+          height="128px"
+        /><!-- 42/22 -->
+        <img
+          id="snake3"
+          src="image/snakeandladder/sy.png"
+          width="128px"
+          height="264px"
+        /><!-- 99/59 -->
+        <img
+          id="snake4"
+          src="image/snakeandladder/sg.png"
+          width="128px"
+          height="128px"
+        /><!-- 56/36 -->
+        <img
+          id="snake5"
+          src="image/snakeandladder/sp.png"
+          width="128px"
+          height="128px"
+        /><!-- 86/66 -->
+      </div>
+    </div>
+    <!-- tools game start -->
+    <div id="toolstart">
+      <!-- game starter -->
+      <button id="startbutton" onclick="startGame()">Start</button>
+    </div>
+    <!-- toolr game reset -->
+    <aside id="toolreset">
+      <!-- game restart -->
+      <button id="restartbutton" onclick="restartGame()">Restart</button>
+      <!-- add player -->
+      <button id="baddplayer" onclick="addPlayer()">AddPlayer</button>
+      <!-- player1 -->
+      <div id="player">
+        <h3 id="pnc">Player 1</h3>
+        <button id="bplayer" onclick="playerMover()">Roll</button>
+        <input id="iplayer" type="text" value="Player 1" />
+        <button id="bbp" onclick="inp()">submit</button>
+        <p id="diceroller"></p>
+        <p id="pcolor">Blue</p>
+        <img id="dimg" src="image/dice/dice.png" width="64px" height="64px" />
+        <hr />
+      </div>
+      <!-- player2 -->
+      <div id="player2">
+        <h3 id="pnc2">Player 2</h3>
+        <button id="bplayer2" onclick="playerMover2()">Roll</button>
+        <input id="iplayer2" type="text" value="Player 2" />
+        <button id="bbp2" onclick="inp2()">submit</button>
+        <p id="diceroller2"></p>
+        <p id="pcolor2">Red</p>
+        <img id="dimg2" src="image/dice/dice.png" width="64px" height="64px" />
+        <hr />
+      </div>
+      <!-- pawn place -->
+      <div id="divimg"></div>
+    </aside>
+  </body>
+  <!-- script -->
+  <script type="text/javascript" src="js/script.js"></script>
+</html>
