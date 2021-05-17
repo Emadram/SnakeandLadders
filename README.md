@@ -6,5 +6,5 @@
 <img src="{https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E}"/>
 
 <h1>This Project is on going :hammer:<h1>
-<h3>If you had any Problem or Suggestion for Repo share it via <a href= 'https://github.com/rzr1r/SnakeandLadders/issues'>issue</a>.</h3>
+<h2>If you had any Problem or Suggestion for Repo share it via <a href= 'https://github.com/rzr1r/SnakeandLadders/issues'>issue</a>.</h2>
 
