@@ -1,0 +1,295 @@
+body {
+  background-color: #edf1ff;
+}
+/*all p*/
+p {
+  font-size: 24px;
+}
+/*all hr3*/
+h3 {
+  font-size: 28px;
+}
+/*inputs*/
+input {
+  font-style: 16px;
+  border-radius: 12px;
+}
+/*tools*/
+#toolstart {
+  max-width: 300px;
+  height: 58px;
+  border: 1px inset #000;
+  border-radius: 12px;
+}
+/*toolr*/
+#toolreset {
+  display: none;
+  max-width: 300px;
+  height: auto;
+  margin-top: -742px;
+  border: 1px inset #000;
+  border-radius: 12px;
+}
+/*buttons*/
+button {
+  border-radius: 20px;
+  font-size: 20px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+/*start*/
+#startbutton {
+  display: block;
+  border: 1px solid #88b04b;
+  background-color: #fff;
+  color: #000;
+}
+#startbutton:hover {
+  background-color: #88b04b;
+  color: #fff;
+  text-shadow: 2px 2px 5px #fff;
+}
+#startbutton:active {
+  background-color: #fff;
+  color: #88b04b;
+  text-shadow: 2px 2px 5px #88b04b;
+}
+/*reset*/
+#restartbutton {
+  border: 1px solid #cd212a;
+  background-color: #fff;
+  color: #000;
+  display: none;
+}
+#restartbutton:hover {
+  background-color: #cd212a;
+  color: #fff;
+  text-shadow: 2px 2px 5px #fff;
+}
+#restartbutton:active {
+  background-color: #fff;
+  color: #cd212a;
+  text-shadow: 2px 2px 5px #cd212a;
+}
+/*addplayer*/
+#baddplayer {
+  border: 1px solid #92a8d1;
+  background-color: #fff;
+  color: #000;
+}
+#baddplayer:hover {
+  background-color: #92a8d1;
+  color: #fff;
+  text-shadow: 2px 2px 5px #fff;
+}
+#baddplayer:active {
+  background-color: #fff;
+  color: #92a8d1;
+  text-shadow: 2px 2px 5px #92a8d1;
+}
+/*bplayer*/
+#bplayer {
+  font-size: 16px;
+}
+#bplayer:active {
+  background-color: #fff;
+  color: #0072b5;
+  text-shadow: 2px 2px 5px #0072b5;
+}
+/*bplayer2*/
+#bplayer2 {
+  font-size: 16px;
+}
+#bplayer2:active {
+  background-color: #fff;
+  color: #bc243c;
+  text-shadow: 2px 2px 5px #bc243c;
+}
+/*bbp*/
+#bbp {
+  font-size: 16px;
+  border: 1px solid #0072b5;
+  background-color: #fff;
+  color: #000;
+}
+#bbp:hover {
+  background-color: #0072b5;
+  color: #fff;
+  text-shadow: 2px 2px 5px #fff;
+}
+#bbp:active {
+  background-color: #fff;
+  color: #0072b5;
+  text-shadow: 2px 2px 5px #0072b5;
+}
+/*bbp2*/
+#bbp2 {
+  font-size: 16px;
+  border: 1px solid #bc243c;
+  background-color: #fff;
+  color: #000;
+}
+#bbp2:hover {
+  background-color: #bc243c;
+  color: #fff;
+  text-shadow: 2px 2px 5px #fff;
+}
+#bbp2:active {
+  background-color: #fff;
+  color: #bc243c;
+  text-shadow: 2px 2px 5px #bc243c;
+}
+#player p {
+  color: #0072b5;
+}
+#player2 p {
+  color: #bc243c;
+}
+#pnc {
+  color: #0072b5;
+}
+#pnc2 {
+  color: #bc243c;
+}
+/*div*/
+#divc {
+  display: none;
+  border-radius: 12px;
+  border: 1px inset #000;
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: #edf1ff;
+}
+/*dic class 1*/
+.container {
+  width: 100%;
+  margin: 2px auto;
+  display: block;
+  text-align: center;
+}
+/*box*/
+.container span {
+  position: relative;
+  border: 1px outset #000;
+  border-radius: 12px;
+  margin: auto 1px;
+  font-size: 24px;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden; /*important*/
+  /*display have to be inline block or block becuase inline elements dont listen to width and hight*/
+  width: 65px;
+  height: 65px;
+}
+.container span:nth-child(odd) {
+  background-color: #9bb7d4;
+}
+.container span:nth-child(even) {
+  background-color: #fff;
+}
+/*div class 2*/
+.containerl {
+  width: 100%;
+  margin: 2px auto;
+  display: block;
+  text-align: center;
+}
+/*box*/
+.containerl span {
+  border: 1px outset #000;
+  border-radius: 12px;
+  margin: auto 1px;
+  text-align: left;
+  font-size: 24px;
+  overflow: hidden; /*important*/
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+}
+.containerl span:nth-child(even) {
+  background-color: #9bb7d4;
+}
+.containerl span:nth-child(odd) {
+  background-color: #fff;
+}
+/*end of div container (containerl and container)*/
+/*player*/
+#player,
+#player2 {
+  display: none;
+}
+#pawnpoint {
+  float: right;
+  margin-top: 480px;
+  margin-right: 330px;
+  background: url(../image/arrow.png) no-repeat;
+  background-size: 60px 250px;
+  display: none;
+}
+#pawnpoint span {
+  border: 1px inset #000;
+  border-radius: 12px;
+  margin: auto 1px;
+  text-align: left;
+  font-size: 24px;
+  overflow: hidden; /*important*/
+  display: inline-block;
+  width: 65px;
+  height: 255px;
+}
+/*snakes and ladders*/
+#snakeladder img {
+  position: absolute;
+  opacity: 0.8;
+}
+#ladder1 {
+  z-index: 2;
+  margin-top: 490px;
+  margin-left: 320px;
+}
+#ladder2 {
+  z-index: 2;
+  margin-top: 130px;
+  margin-left: 183px;
+}
+#ladder3 {
+  z-index: 2;
+  margin-top: 120px;
+  margin-left: 390px;
+}
+#ladder4 {
+  z-index: 2;
+  margin-top: 45px;
+  margin-left: 113px;
+}
+#ladder5 {
+  z-index: 2;
+  margin-top: 625px;
+  margin-left: 115px;
+}
+/*snakes*/
+#snake1 {
+  z-index: 1;
+  margin-top: 485px;
+  margin-left: 80px;
+}
+#snake2 {
+  z-index: 1;
+  margin-top: 410px;
+  margin-left: 565px;
+}
+#snake3 {
+  z-index: 1;
+  margin-top: 45px;
+  margin-left: 75px;
+}
+#snake4 {
+  z-index: 1;
+  margin-top: 340px;
+  margin-left: 290px;
+}
+#snake5 {
+  z-index: 1;
+  margin-top: 115px;
+  margin-left: 285px;
+}
