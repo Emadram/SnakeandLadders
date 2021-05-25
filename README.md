@@ -20,4 +20,4 @@
 <pre><code>git push origin feature/someFeature</code></pre>
 <li>Open a Pull Request</li>
 <ol>
- <h3>If you had any Problem or Suggestion for Repo share it via <a href= 'https://github.com/rzr1r/SnakeandLadders/issues'>issue</a>. <h3>
+<h3>If you had any Problem or Suggestion for Repo share it via <a href= 'https://github.com/rzr1r/SnakeandLadders/issues'>issue</a>. </h3>
