@@ -12,9 +12,9 @@
 <h3>:wrench: Contributing</h3>
 <ol>
 <li>Fork the Project</li>
-<li>Create your Feature branch <pre></code>git checkout -b feature/someFeature</code></pre></li>
-<li>Commit your Changes <pre></code>git commit -m 'Add some Feature '</code></pre></li>
-<li>Push to the Branch <pre></code>git push origin feature/someFeature</code></pre></li>
+<li>Create your Feature branch</li> <pre></code>git checkout -b feature/someFeature</code></pre>
+<li>Commit your Changes</li> <pre></code>git commit -m 'Add some Feature '</code></pre>
+<li>Push to the Branch</li> <pre></code>git push origin feature/someFeature</code></pre>
 <li>Open a Pull Request</li>
 <ol>
  If you had any Problem or Suggestion for Repo share it via <a href= 'https://github.com/rzr1r/SnakeandLadders/issues'>issue</a>.
