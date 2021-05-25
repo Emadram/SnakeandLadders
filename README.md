@@ -13,11 +13,11 @@
 <ol>
 <li>Fork the Project</li>
 <li>Create your Feature branch</li> 
- </code>git checkout -b feature/someFeature</code>
+ <pre><code>git checkout -b feature/someFeature</code></pre>
 <li>Commit your Changes</li> 
-</code>git commit -m 'Add some Feature '</code>
+<pre><code>git commit -m 'Add some Feature '</code></pre>
 <li>Push to the Branch</li>
-</code>git push origin feature/someFeature</code>
+<pre><code>git push origin feature/someFeature</code></pre>
 <li>Open a Pull Request</li>
 <ol>
  If you had any Problem or Suggestion for Repo share it via <a href= 'https://github.com/rzr1r/SnakeandLadders/issues'>issue</a>.
