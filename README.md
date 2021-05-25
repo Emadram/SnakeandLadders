@@ -9,6 +9,12 @@
 <li><a href= 'https://www.w3schools.com/css/' target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a></li>
 <li><a href= 'https://www.w3schools.com/js/' target="_blank"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/></a></li>
 </ul>
-<h3>:wrench:Project is on going </h3>
-If you had any Problem or Suggestion for Repo share it via <a href= 'https://github.com/rzr1r/SnakeandLadders/issues'>issue</a>.
-
+<h3>:wrench: Contributing</h3>
+<ol>
+<li>Fork the Project</li>
+<li>Create your Feature branch <pre></code>git checkout -b feature/someFeature</code></pre></li>
+<li>Commit your Changes <pre></code>git commit -m 'Add some Feature '</code></pre></li>
+<li>Push to the Branch <pre></code>git push origin feature/someFeature</code></pre></li>
+<li>Open a Pull Request</li>
+<ol>
+ If you had any Problem or Suggestion for Repo share it via <a href= 'https://github.com/rzr1r/SnakeandLadders/issues'>issue</a>.
