@@ -1,27 +1,32 @@
 body {
   background-color: #edf1ff;
 }
-/*all p*/
+
+/* Paragraphs */
 p {
   font-size: 24px;
 }
-/*all hr3*/
+
+/* Headings */
 h3 {
   font-size: 28px;
 }
-/*inputs*/
+
+/* Inputs */
 input {
-  font-style: 16px;
+  font-size: 16px;
   border-radius: 12px;
 }
-/*tools*/
+
+/* Tool Start */
 #toolstart {
   max-width: 300px;
   height: 58px;
   border: 1px inset #000;
   border-radius: 12px;
 }
-/*toolr*/
+
+/* Tool Reset */
 #toolreset {
   display: none;
   max-width: 300px;
@@ -30,14 +35,16 @@ input {
   border: 1px inset #000;
   border-radius: 12px;
 }
-/*buttons*/
+
+/* Buttons */
 button {
   border-radius: 20px;
   font-size: 20px;
   transition: 0.4s;
   font-weight: bold;
 }
-/*start*/
+
+/* Start Button */
 #startbutton {
   display: block;
   border: 1px solid #88b04b;
@@ -54,7 +61,8 @@ button {
   color: #88b04b;
   text-shadow: 2px 2px 5px #88b04b;
 }
-/*reset*/
+
+/* Restart Button */
 #restartbutton {
   border: 1px solid #cd212a;
   background-color: #fff;
@@ -71,7 +79,8 @@ button {
   color: #cd212a;
   text-shadow: 2px 2px 5px #cd212a;
 }
-/*addplayer*/
+
+/* Add Player Button */
 #baddplayer {
   border: 1px solid #92a8d1;
   background-color: #fff;
@@ -87,8 +96,10 @@ button {
   color: #92a8d1;
   text-shadow: 2px 2px 5px #92a8d1;
 }
-/*bplayer*/
-#bplayer {
+
+/* Player Buttons */
+#bplayer,
+#bplayer2 {
   font-size: 16px;
 }
 #bplayer:active {
@@ -96,21 +107,21 @@ button {
   color: #0072b5;
   text-shadow: 2px 2px 5px #0072b5;
 }
-/*bplayer2*/
-#bplayer2 {
-  font-size: 16px;
-}
 #bplayer2:active {
   background-color: #fff;
   color: #bc243c;
   text-shadow: 2px 2px 5px #bc243c;
 }
-/*bbp*/
-#bbp {
+
+/* Player Points Buttons */
+#bbp,
+#bbp2 {
   font-size: 16px;
-  border: 1px solid #0072b5;
   background-color: #fff;
   color: #000;
+}
+#bbp {
+  border: 1px solid #0072b5;
 }
 #bbp:hover {
   background-color: #0072b5;
@@ -122,12 +133,8 @@ button {
   color: #0072b5;
   text-shadow: 2px 2px 5px #0072b5;
 }
-/*bbp2*/
 #bbp2 {
-  font-size: 16px;
   border: 1px solid #bc243c;
-  background-color: #fff;
-  color: #000;
 }
 #bbp2:hover {
   background-color: #bc243c;
@@ -139,6 +146,8 @@ button {
   color: #bc243c;
   text-shadow: 2px 2px 5px #bc243c;
 }
+
+/* Player Text Colors */
 #player p {
   color: #0072b5;
 }
@@ -151,7 +160,8 @@ button {
 #pnc2 {
   color: #bc243c;
 }
-/*div*/
+
+/* Game Container */
 #divc {
   display: none;
   border-radius: 12px;
@@ -160,64 +170,45 @@ button {
   max-width: 700px;
   background-color: #edf1ff;
 }
-/*dic class 1*/
-.container {
-  width: 100%;
-  margin: 2px auto;
-  display: block;
-  text-align: center;
-}
-/*box*/
-.container span {
-  position: relative;
-  border: 1px outset #000;
-  border-radius: 12px;
-  margin: auto 1px;
-  font-size: 24px;
-  display: inline-block;
-  text-align: left;
-  overflow: hidden; /*important*/
-  /*display have to be inline block or block becuase inline elements dont listen to width and hight*/
-  width: 65px;
-  height: 65px;
-}
-.container span:nth-child(odd) {
-  background-color: #9bb7d4;
-}
-.container span:nth-child(even) {
-  background-color: #fff;
-}
-/*div class 2*/
+
+/* Board Container */
+.container,
 .containerl {
   width: 100%;
   margin: 2px auto;
   display: block;
   text-align: center;
 }
-/*box*/
+
+/* Board Boxes */
+.container span,
 .containerl span {
   border: 1px outset #000;
   border-radius: 12px;
   margin: auto 1px;
   text-align: left;
   font-size: 24px;
-  overflow: hidden; /*important*/
+  overflow: hidden;
   display: inline-block;
   width: 65px;
   height: 65px;
 }
+.container span:nth-child(odd),
 .containerl span:nth-child(even) {
   background-color: #9bb7d4;
 }
+.container span:nth-child(even),
 .containerl span:nth-child(odd) {
   background-color: #fff;
 }
-/*end of div container (containerl and container)*/
-/*player*/
+
+/* Player Display */
 #player,
 #player2 {
   display: none;
 }
+
+/* Pawn Pointer */
 #pawnpoint {
   float: right;
   margin-top: 480px;
@@ -232,16 +223,19 @@ button {
   margin: auto 1px;
   text-align: left;
   font-size: 24px;
-  overflow: hidden; /*important*/
+  overflow: hidden;
   display: inline-block;
   width: 65px;
   height: 255px;
 }
-/*snakes and ladders*/
+
+/* Snakes and Ladders */
 #snakeladder img {
   position: absolute;
   opacity: 0.8;
 }
+
+/* Ladders */
 #ladder1 {
   z-index: 2;
   margin-top: 490px;
@@ -267,7 +261,8 @@ button {
   margin-top: 625px;
   margin-left: 115px;
 }
-/*snakes*/
+
+/* Snakes */
 #snake1 {
   z-index: 1;
   margin-top: 485px;
